@@ -19,6 +19,9 @@ body{
     flex-grow: 1;
     display: inline-block;
 }
+#aboutP{
+    font-size: 1vw;
+}
 h1{
     font-size: 3.7vw;
     margin-top: 7%;
@@ -48,6 +51,8 @@ header > a:hover{
 
 #potrait{
     width:20%;   
+    box-sizing: border-box;
+    margin: 0.5vh 0%;
 }
 #form{
     display: block;
