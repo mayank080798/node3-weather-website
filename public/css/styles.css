@@ -19,7 +19,7 @@ body{
     flex-grow: 1;
     display: inline-block;
 }
-#aboutP{
+#aboutP,p{
     font-size: 1vw;
 }
 h1{
@@ -96,5 +96,6 @@ input[type=text]:focus {
     background-color:white;
 }
 #message-1 , #message-2{
-    font-size: 1.4vw;
+    font-size: 0.8vw;
+    margin-bottom: 0.5vh;
 }
