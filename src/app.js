@@ -62,6 +62,7 @@ app.get('/weather',(request,response)=>{
                             locationCode,
                         },
                         TemperatureData:dataForecast.currently,
+                        TemperatureDaily:dataForecast.daily,
                     })
             });
 
