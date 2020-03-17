@@ -7,7 +7,7 @@ const weatherForm=document.querySelector('#form').addEventListener('submit',(e)=
     messageOne.textContent="Loading..";
     messageTwo.textContent="....";
     const location=search.value;
-    fetch(`http://localhost:8080/weather?location=${location}`)
+    fetch(`/weather?location=${location}`)
     .then((response)=>{
         return response.json();
     })

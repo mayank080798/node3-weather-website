@@ -4,6 +4,7 @@ const hbs=require('hbs');
 const geoCode=require('./utils/geocode');
 const forecastCode=require('./utils/forecast');
 const app=express();
+const port=process.env.PORT || 3000 ;
 //Define paths for express config
 const publicDirectoryPath=path.join(__dirname,'../public');
 const viewsPath=path.join(__dirname,'../templates/views');
@@ -97,6 +98,6 @@ app.get('*',(request,response)=>{
     });
 });
 
-app.listen(8080,()=>{
-    console.log('Server is up and running.');
+app.listen(port,()=>{
+    console.log(`Server is up and running on port ${port}.`);
 });
