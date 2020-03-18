@@ -95,7 +95,7 @@ input[type=text]:focus {
     outline: none;
     background-color:white;
 }
-#message-1 , #message-2{
-    font-size: 0.8vw;
+#message-1 , #message-2 , #message-3{
+    font-size: 0.8%;
     margin-bottom: 0.5vh;
 }
