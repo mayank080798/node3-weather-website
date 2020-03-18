@@ -96,6 +96,6 @@ input[type=text]:focus {
     background-color:white;
 }
 #message-1 , #message-2 , #message-3{
-    font-size: 1.3vh;
+    font-size: 1.0vw;
     margin-bottom: 0.5vh;
 }
